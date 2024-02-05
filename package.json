@@ -1,0 +1,37 @@
+{
+  "name": "chat-with-pdf",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.4.1",
+    "@astrojs/svelte": "^5.0.3",
+    "@astrojs/tailwind": "^5.1.0",
+    "@llama-node/llama-cpp": "^0.1.6",
+    "astro": "^4.3.0",
+    "cloudinary": "^2.0.0",
+    "ollama": "^0.4.5",
+    "openai": "^4.26.0",
+    "svelte": "^4.2.9",
+    "svelte-file-dropzone": "^2.0.4",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-astro": "^0.31.4",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "flowbite": "^2.2.1",
+    "flowbite-svelte": "^0.44.22",
+    "prettier": "^3.2.5",
+    "prettier-config-standard": "^7.0.0",
+    "prettier-plugin-astro": "^0.13.0"
+  }
+}
